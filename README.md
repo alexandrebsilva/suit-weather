@@ -24,6 +24,8 @@ expo start
 ```
 This will serve a expo server and then you can check the app on your phone or any emulator
 
+![app suit-weather](/app.jpeg)
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
