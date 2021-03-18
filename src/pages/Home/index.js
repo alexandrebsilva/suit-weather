@@ -139,7 +139,6 @@ export default function Home() {
           coords.latitude,
           coords.longitude
         );
-        console.log(data.results);
         setForecastData(data);
         setLoading(false);
       } catch (error) {

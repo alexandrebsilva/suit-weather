@@ -9,7 +9,6 @@ import {
 
 export default function Header({ data }) {
   const backgroundColorGradient = getBackgroundByPeriod(data.currently);
-  console.log(backgroundColorGradient);
   return (
     <LinearGradient
       style={styles.header}
