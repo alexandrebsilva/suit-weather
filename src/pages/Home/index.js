@@ -7,6 +7,7 @@ import Header from "../../components/Header";
 import Menu from "../../components/Menu";
 import * as Location from "expo-location";
 import WeatherApiService from "../../services/weather-service";
+import { Spinner } from "../../components/Spinner";
 
 export default function Home() {
   const [forecastData, setForecastData] = useState({
@@ -164,7 +165,9 @@ export default function Home() {
             renderItem={({ item }) => <Forecast data={item} />}
           />
         </>
-      ) : null}
+      ) : (
+        <Spinner />
+      )}
     </SafeAreaView>
   );
 }
